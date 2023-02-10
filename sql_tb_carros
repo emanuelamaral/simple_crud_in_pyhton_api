@@ -1,0 +1,13 @@
+create table tb_carros(
+	id integer not null auto_increment,
+	marca varchar(100),
+	modelo varchar(100),
+	ano integer,
+	primary key (id)
+);
+
+insert into tb_carros(marca, modelo, ano) values('Fiat', 'Marea', 1999);
+insert into tb_carros(marca, modelo, ano) values('Fiat', 'Uno', 1992);
+insert into tb_carros(marca, modelo, ano) values('Ford', 'Escort', 1985);
+insert into tb_carros(marca, modelo, ano) values('Chevrolet', 'Chevette', 1978);
+insert into tb_carros(marca, modelo, ano) values('Volkswagen', 'Fusca', 1962);
